@@ -13,20 +13,20 @@ export default function Home() {
         <section className="hero">
             <div className="navbar">
                 <span>
-                    <Image className='logo' src={'/logoRW.svg'} alt='logo' width={70} height={50} />
+                    <Link href={'/'} ><Image className='logo' src={'/logoRW.svg'} alt='logo' width={70} height={50} /></Link>
                     <nav>
-                        <Link className='menuLink' href={'/'}>ABOUT</Link>
-                        <Link className='menuLink' href={'/'}>TRAINING</Link>
-                        <Link className='menuLink' href={'/'}>FIND US</Link>
+                        <Link className='menuLink' href={'#about-us'}>ABOUT</Link>
+                        <Link className='menuLink' href={'#training-information'}>TRAINING</Link>
+                        <Link className='menuLink' href={'#contact-information'}>FIND US</Link>
                     </nav>
                 </span>
-                <Link className='button-01' href={'/'} >CALL US</Link>
+                <Link className='button-01' href={'#contact-information'} >CALL US</Link>
             </div>
             <Image className='heroImage' src={'/heroImage.svg'} width={150} height={150} alt='hero image' />
             <Image className='punchingBag' src={'/punchingBag.svg'} width={150} height={150} alt='punching bag' />
         </section>
 
-        <section className="about">
+        <section id='about-us' className="about">
             <Image className="boxer" src={'/boxer.svg'} width={150} height={150} alt='boxer' />
 
             <div className="aboutInfo">
@@ -41,11 +41,11 @@ export default function Home() {
                     Iusto, quae obcaecati illum quis vero alias. Repellat natus placeat libero alias officia.
                 </p>
 
-                <Link href={'/'} className="button-01">FIND US</Link>
+                <Link href={'#contact-information'} className="button-01">FIND US</Link>
             </div>
         </section>
 
-        <section className="training">
+        <section id='training-information' className="training">
             <Image className='gloves' src={'/gloves.svg'} width={150} height={150} alt='gloves' />
             {services.map((service,index) =>(
                 <div key={index} className="serviceItem">
@@ -55,7 +55,7 @@ export default function Home() {
             ))}
         </section>
 
-        <section className="find">
+        <section id='contact-information' className="find">
             <Image src={'/logoRB.svg'} height={70} width={100} alt='logo' />
             <h2>COME AND VISIT US.</h2>
             <h4>TAKE YOUR HEALTH AND FITNESS TO THE NEXT LEVEL</h4>
