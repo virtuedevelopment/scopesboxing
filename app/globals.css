@@ -45,7 +45,31 @@
 
 
 /* landing page */
-
+.landing{
+  height: 100svh;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.landingImage{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: zoomAndFade 20s infinite;
+}
+.enterBox{
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 
 /* Home */
@@ -299,6 +323,17 @@
       transform: rotate(5deg);
   }
 }
+@keyframes zoomAndFade {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.2); /* Fade back to original size */
+    opacity: 1;
+  }
+}
 
 /* footer */
 .footer{
@@ -402,10 +437,12 @@
       .aboutInfo{
         width: 90%;
       }
-
+      .aboutInfo h4{
+        font-size: 1.5rem;
+      }
       .aboutInfo p{
         width: 100%;
-        font-size: 1rem;
+        font-size: 0.95rem;
         z-index: 10;
       }
 
@@ -443,12 +480,25 @@
         gap: 1rem;
       }
       #firstchild{
+        align-items: center;
         justify-content: center;
         text-align: center;
       }
       #secondchild{
+        align-items: center;
         justify-content: center;
         text-align: center;
+      }
+
+      .footer{
+        padding: 0;
+      }
+      .footerInfo h2{
+        font-size: 35px;
+      }
+      .authorLink{
+        font-size: 0.75rem;
+        font-weight: 300;
       }
 
 }
