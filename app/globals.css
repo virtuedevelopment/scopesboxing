@@ -11,7 +11,7 @@
   --secondary-gradient: linear-gradient(var(--main-black), var(--main-white));
 
 
-  --title: 50px;
+  --title: 65px;
   --subtitle: 35px;
   --paragraph: 16px;
 
@@ -115,6 +115,8 @@
   animation: swing 4s infinite ease-in-out;
 }
 
+
+
 .about{
   height: 100svh;
   background-color: var(--main-white);
@@ -140,11 +142,10 @@
   position: absolute;
   z-index: 10;
   width: 50%;
-  height: 95%;
+  height: 95svh;
   bottom: 0;
   left: 0;
 }
-
 .aboutInfo{
   z-index: 10;
   width: 50%;
@@ -170,8 +171,10 @@
   margin-bottom: 2rem;
 }
 
+
+
 .training{
-  height: 100svh;
+  min-height: 100svh;
   position: relative;
   background-color: var(--main-white);
   padding: 4.5rem;
@@ -205,9 +208,86 @@
   margin-bottom: 1rem;
 }
 .serviceItem p{
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 300;
   line-height: 2;
+}
+
+
+
+.find{
+  min-height: 80svh;
+  background-color: var(--main-white);
+  padding: var(--section-padding);
+  text-align: center;
+}
+.find h2{
+  font-size: var(--title);
+  color: var(--secondary-red);
+  margin-bottom: 1rem;
+}
+.find h4{
+  color: var(--main-black);
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+}
+
+.calendarbox{
+  width: 75%;
+  padding: 1rem;
+  margin: 1.5rem auto;
+
+  display: grid;
+  gap: 0.5rem;
+}
+.schedule{
+  width: 100%;
+  height: 100%;
+  padding: 1.25rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--main-grey);
+  color: var(--main-white);
+  font-size: 1.25rem;
+}
+.scheduleAlt{
+  width: 100%;
+  height: 100%;
+  padding: 1.25rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--main-white);
+  color: var(--main-grey);
+  font-size: 1.25rem;
+}
+
+.infoBox{
+  width: 75%;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+}
+#firstchild{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--main-black);
+}
+#secondchild{
+  text-align: right !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--main-black);
 }
 
 /* animations */
@@ -218,4 +298,157 @@
   50% {
       transform: rotate(5deg);
   }
+}
+
+/* footer */
+.footer{
+  min-height: 65svh;
+  padding: 2rem;
+  background-color: var(--main-black);
+}
+.map{
+  width: 100%;
+  height: 400px;
+  border: none;
+}
+.footerInfo{
+  height: 400px;
+  background-color: var(--main-black);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerInfo h2{
+  font-size: var(--title);
+  color: var(--main-white);
+  text-align: center;
+}
+.red{
+  color: var(--secondary-red);
+}
+.creators small{
+  display: block;
+  text-align: center;
+  color: var(--main-white);
+  margin-bottom: 1rem;
+}
+
+.authorLink{
+  color: #F22952;
+  margin-inline: 1rem;
+  border-bottom: solid 1px var(--secondary-red);
+}
+.authorLink:hover{
+  color: #f5f5f5;
+  border-bottom: solid 1px var(--main-white);
+  transition: 0.25s ease-in-out;
+}
+
+@media (max-width:800px) {
+
+      .button-01{
+        padding: 0.75rem;
+      }
+      .navbar{
+        width: 90%;
+      }
+      .menuLink{
+        display: none;
+      }
+      .hero{
+        height: 70svh;
+      }
+      .heroImage{
+        width: 90%;
+        bottom: -100px;
+      }
+      .punchingBag{
+        width: 150px;
+        height: 25%;
+        position: absolute;
+        z-index: 4;
+        top: 175px;
+        left: 65%;
+        transform-origin: top center; 
+        animation: swing 4s infinite ease-in-out;
+      }
+
+      .about{
+        height: 100svh;
+        background-color: var(--main-white);
+        position: relative;
+      
+        padding-top: 1rem;
+        padding-right: 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .about::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 100%;
+        background: linear-gradient(to top right, #F22952 50%, transparent 50%);
+        z-index: 1;
+      }
+      .boxer{
+        display: none;
+      }
+      .aboutInfo{
+        width: 90%;
+      }
+
+      .aboutInfo p{
+        width: 100%;
+        font-size: 1rem;
+        z-index: 10;
+      }
+
+      .training{
+        min-height: 100svh;
+        grid-template-columns: 1fr;
+        padding: 1.75rem;
+      }
+      .serviceItem{
+        width: 100%;
+      }
+
+      .find{
+        padding: 1rem;
+      }
+      .find h2{
+        font-size: 30px;
+      }
+      .calendarbox{
+        width: 100%;
+      }
+      .schedule{
+        font-size: 0.85rem;
+        padding: 1.25rem;
+      }
+      .scheduleAlt{
+        font-size: 0.85rem;
+        padding: 1.25rem;
+      }
+      .infoBox{
+        width: 100%;
+        padding: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+      }
+      #firstchild{
+        justify-content: center;
+        text-align: center;
+      }
+      #secondchild{
+        justify-content: center;
+        text-align: center;
+      }
+
 }

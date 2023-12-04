@@ -3,6 +3,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import services from '@/_data/services'
+import schedule from '@/_data/schedule'
+
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -52,6 +55,35 @@ export default function Home() {
             ))}
         </section>
 
+        <section className="find">
+            <Image src={'/logoRB.svg'} height={70} width={100} alt='logo' />
+            <h2>COME AND VISIT US.</h2>
+            <h4>TAKE YOUR HEALTH AND FITNESS TO THE NEXT LEVEL</h4>
+            
+            <div className="infoBox">
+                <span id='firstchild' >
+                    <p>717 - 848 - 8893</p>
+                    <p>SCOPESBOXING@GMAIL.COM</p>
+                </span>
+
+                <span id='secondchild' >
+                    <p>1000 BOOSERT BLVD OTTAWA ON</p>
+                    <p>K1K 9J4 SUITE 55</p>
+                </span>
+            </div>
+
+            <div className="calendarbox">
+                {schedule.map((day, index) => (
+                    <span key={index} className={index % 2 === 0 ? "schedule" : "scheduleAlt"}>
+                        <p>{day.day}</p>
+                        <p>{day.time}</p>
+                    </span>
+                ))}
+            </div>
+
+        </section>
+        
+        <Footer/>
     </main>
   )
 }
