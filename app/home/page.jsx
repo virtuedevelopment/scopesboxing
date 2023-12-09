@@ -33,7 +33,7 @@ export default function Home() {
               <Link className="menuLink" href={"#contact-information"}>
                 FIND US
               </Link>
-              <Link className="menuLink" href={"#contact-information"}>
+              <Link className="menuLink" href={"#register"}>
                 REGISTER
               </Link>
             </nav>
