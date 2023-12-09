@@ -37,9 +37,21 @@
   color: var(--main-white);
   cursor: pointer;
 }
+.button-02{
+  padding: 0.75rem 1.5rem;
+  background: var(--main-white);
+  border-radius: var(--border-rad);
+  color: var(--main-red);
+  cursor: pointer;
+}
 .button-01:hover{
   background: var(--main-white);
   color: var(--main-red);
+  transition: ease-in-out;
+}
+.button-02:hover{
+  background: var(--main-black);
+  color: var(--main-white);
   transition: ease-in-out;
 }
 
@@ -69,6 +81,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 1.5rem;
 }
 
 
@@ -335,6 +348,35 @@
   }
 }
 
+.register{
+  min-height: 60svh;
+  background: var(--gradient);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register h4{
+  text-align: center;
+  font-size: var(--title);
+  color: var(--main-white);
+  margin-bottom: 2rem;
+}
+.register p{
+  font-weight: 300;
+  width: 65%;
+  margin: 2rem auto;
+  line-height: 2;
+  text-align: center;
+  color: var(--main-white);
+}
+.register a{
+  display: inline-block;
+  margin: 2rem auto;
+}
+
+
+
 /* footer */
 .footer{
   min-height: 65svh;
@@ -500,5 +542,11 @@
         font-size: 0.75rem;
         font-weight: 300;
       }
-
+      .register h4{
+        font-size: 40px;
+        margin-bottom: 0;
+      }
+      .register p{
+        width: 90%;
+      }
 }

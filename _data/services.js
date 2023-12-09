@@ -1,24 +1,25 @@
 const services = [
     {
         name: 'ONE ON ONE TRAINING',
-        description: 'Whether you are a beginner looking to learn the basics, an enthusiast seeking to improve technique, or a professional aiming to perfect your strategy, our one-on-one sessions.'
+        description: 'Tailored boxing coaching for all levels, from beginners to pros, in a focused setting. Achieve your personal best with expert guidance.'
     },
     {
-        name: 'PREMIUM FACILITY',
-        description: 'Whether you are a beginner looking to learn the basics, an enthusiast seeking to improve technique, or a professional aiming to perfect your strategy, our one-on-one sessions.'
+        name: 'OLD SCHOOL FACILITY',
+        description: 'Experience classic boxing in a vintage-style gym, perfect for all boxing enthusiasts. Immerse in the sports rich history with every workout.'
     },
     {
         name: 'TRAINING PLANS',
-        description: 'Whether you are a beginner looking to learn the basics, an enthusiast seeking to improve technique, or a professional aiming to perfect your strategy, our one-on-one sessions.'
+        description: 'Customized workout regimes blending boxing techniques with fitness goals. Our plans are designed to maximize your health and boxing skills.'
     },
     {
         name: 'CROSSFIT TRAINING',
-        description: 'Whether you are a beginner looking to learn the basics, an enthusiast seeking to improve technique, or a professional aiming to perfect your strategy, our one-on-one sessions.'
+        description: 'Dynamic CrossFit programs integrating boxing for enhanced strength and conditioning. Elevate your fitness with this challenging, hybrid training.'
     },
     {
-        name: 'AMETEUR MATCHES',
-        description: 'Whether you are a beginner looking to learn the basics, an enthusiast seeking to improve technique, or a professional aiming to perfect your strategy, our one-on-one sessions.'
+        name: 'AMATEUR MATCHES',
+        description: 'Compete and test your skills in amateur bouts, suitable for all aspiring boxers. Step into the ring to experience real competitive boxing.'
     }
+    
 ]
 
 export default services
