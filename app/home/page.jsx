@@ -71,15 +71,23 @@ export default function Home() {
           <h2>WHY WE TRAIN</h2>
           <h4>Where It All Started</h4>
           <p>
-            Located in the heart of Merivale, Ottawa, Scopes Boxing Club stands
-            as a beacon for boxing enthusiasts and fitness seekers alike. We
-            offer a unique blend of traditional and modern boxing training. Our
-            facility boasts an old-school charm that pays homage to the rich
-            history of boxing, coupled with state-of-the-art equipment and
-            training techniques. From personalized one-on-one training sessions
-            that cater to individuals at any skill level, to dynamic CrossFit
-            programs that integrate boxing for optimal strength and
-            conditioning, our gym is designed to meet diverse fitness goals.
+            Welcome to the epitome of boxing excellence in Ottawa, Scope Boxing
+            Club! Embark on a transformative journey where each punch transcends
+            sport, shaping not just your physique but also fortifying your
+            resilience and discipline. Nestled in the heart of Ottawa, our gym
+            is more than a training ground, it is a community dedicated to both
+            fitness and boxing prowess. At Scope, we go beyond the ring,
+            prioritizing your overall well-being. Recognizing the demands of
+            diverse careers and daily life, our meticulously crafted programs
+            seamlessly integrate into your lifestyle, enhancing not only your
+            boxing skills but also your holistic health. Join our community and
+            discover a place where improvement is constant be it in the ring,
+            your fitness journey, or life itself. Together, let us redefine your
+            limits and strive for greatness. Unleash your potential, one punch
+            at a time, at Scope Boxing Club, where every workout meets the
+            standard of excellence. Be Fit. Be Fierce. Be part of Scopes Boxing
+            Club, where your journey to superior boxing, fitness, and health
+            goals never stops. Health and fitness in every punch.
           </p>
 
           <Link href={"#contact-information"} className="button-01">
@@ -111,8 +119,8 @@ export default function Home() {
           Scopes Boxing Club, we invite you to get in touch with us today.
           Whether youre a seasoned boxer or just beginning, our tailored
           training programs are designed to suit your individual needs. Dont
-          hesitate to call us at {configurations.phone} for more information or to
-          register for training. Alternatively, you can visit us at our
+          hesitate to call us at {configurations.phone} for more information or
+          to register for training. Alternatively, you can visit us at our
           Merivale, Ottawa location to experience the vibrant atmosphere of our
           gym and speak directly with our trainers. Come in today to start your
           transformation with Scopes Boxing Club, where every members fitness
