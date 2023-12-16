@@ -1,4 +1,4 @@
-import { Rowdies } from 'next/font/google'
+import { Rowdies, Rubik } from 'next/font/google'
 import './globals.css'
 import configurations from '@/_data/config'
 

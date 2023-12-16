@@ -70,25 +70,7 @@ export default function Home() {
         <div className="aboutInfo">
           <h2>WHY WE TRAIN</h2>
           <h4>Where It All Started</h4>
-          <p>
-            Welcome to the epitome of boxing excellence in Ottawa, Scope Boxing
-            Club! Embark on a transformative journey where each punch transcends
-            sport, shaping not just your physique but also fortifying your
-            resilience and discipline. Nestled in the heart of Ottawa, our gym
-            is more than a training ground, it is a community dedicated to both
-            fitness and boxing prowess. At Scope, we go beyond the ring,
-            prioritizing your overall well-being. Recognizing the demands of
-            diverse careers and daily life, our meticulously crafted programs
-            seamlessly integrate into your lifestyle, enhancing not only your
-            boxing skills but also your holistic health. Join our community and
-            discover a place where improvement is constant be it in the ring,
-            your fitness journey, or life itself. Together, let us redefine your
-            limits and strive for greatness. Unleash your potential, one punch
-            at a time, at Scope Boxing Club, where every workout meets the
-            standard of excellence. Be Fit. Be Fierce. Be part of Scopes Boxing
-            Club, where your journey to superior boxing, fitness, and health
-            goals never stops. Health and fitness in every punch.
-          </p>
+          <p>{configurations.aboutDescription}</p>
 
           <Link href={"#contact-information"} className="button-01">
             FIND US
@@ -104,9 +86,9 @@ export default function Home() {
           height={150}
           alt="gloves"
         />
-        {services.map((service, index) => (
+        {configurations.features.map((service, index) => (
           <div key={index} className="serviceItem">
-            <h4>{service.name}</h4>
+            <h4>{service.title}</h4>
             <p>{service.description}</p>
           </div>
         ))}
