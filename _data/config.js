@@ -2,8 +2,8 @@ const configurations = {
     title: 'Scopes Boxing Club Ottawa',
     description: 'Join Scopes Boxing Club in Merivale, Ottawa for top-notch boxing training and fitness programs. Personalized coaching, CrossFit, amateur matches, and more. Call or visit today!',
     author: 'Virtue Technologies and Development',
-    address: '1000 BOOSERT BLVD OTTTAWA ON',
-    email: 'scopesboxing@hotmail.com',
+    address: '862 MERIVALE ROAD OTTTAWA ON',
+    email: 'scopesboxing@gmail.com',
     phone: '613-219-2440',
     socials: { facebook: 'null', instagram: 'null', twitter: 'null',},
     features: [
@@ -36,7 +36,7 @@ const configurations = {
             description: 'Experience classic boxing in a vintage-style gym, perfect for all boxing enthusiasts. Immerse in the sports rich history with every workout.'
         }
     ],
-    aboutDescription: 'Welcome to Ottawas best Boxing Club! At Scope Boxing Club, we are not just a boxing club; We\'re on a mission to become the absolute best in Canada and the world.Located in the heart of Ottawa, Ontario, our gym is more than a place to train – it\'s a community dedicated to excellence in both fitness and boxing prowess. Step into a world where every punch isn\'t just about the sport; it\'s a journey to fitness. We believe in the transformative power of each jab and hook, sculpting not just your body but also your resilience and discipline. Here, you\'ll discover that every punch is an opportunity to get stronger, fitter, and more confident. Our goal isn\'t just about the ring – it\'s about your overall well-being. We understand the demands of daily life and diverse careers, and that\'s why we\'ve designed programs that don\'t just enhance your boxing skills but also integrate seamlessly into your lifestyle. Join us at Scope Boxing Club and experience a place where you can always do better – whether it\'s in the ring, in your fitness journey, or in life. Together, let\'s redefine your limits and strive for greatness. Get ready to unleash your potential, one punch at a time at Scope Boxing Club, where excellence meets every workout! Be Fit.Be Fierce. Be part of Scopes Boxing Club where you can always do better with your boxing, fitness and health goals. Health in fitness in every punch.🥊'
+    aboutDescription: 'Welcome to Canada\'s Capital\'s best boxing club! At Scope Boxing Club, we\'re more than just a boxing club  we\'re on a mission to be the absolute best in Canada and the world. Located in the heart of Ottawa, Ontario, our gym is a community dedicated to excellence in both fitness and boxing talent. Step into a place where every punch is more than just part of the game; it\'s a path to staying fit. We believe in the transformative power of each punch, sculpting not just your body but also your resilience and discipline. Every punch is an opportunity to get stronger, fitter, and more confident. Our goal isn\'t just about the ring – it\'s about your overall well-being. Understanding the demands of daily life and diverse careers, we\'ve designed programs that not only enhance your boxing skills but also seamlessly integrate into your daily routine. Come join us at Scope Boxing Club and experience a place where you can always do better – whether it\'s in the ring, your fitness journey, or in life. Together, let\'s redefine your limits and strive for greatness. Get ready to unleash your potential, one punch at a time at Scope Boxing Club, where excellence meets every workout! Be Fit. Be Fierce. Be part of Scope Boxing Club where you can always do better with your boxing, fitness, and health goals. Health and fitness in every punch. 🥊'
 
 }
 export default configurations

@@ -3,7 +3,7 @@
 :root{
 
   --main-black: #222;
-  --main-red: #E90506;
+  --main-red: red;
   --main-white: #f5f5f5;
   --main-grey: #d9d9d9;
 
@@ -179,7 +179,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 60%;
+  width: 40%;
   height: 100%;
   background: linear-gradient(to top right, #F22952 50%, transparent 50%);
   z-index: 1;
@@ -189,8 +189,8 @@
   z-index: 10;
   width: 50%;
   height: 95svh;
-  bottom: 0;
-  left: 0;
+  bottom: -50px;
+  left: -35px;
 }
 .aboutInfo{
   z-index: 10;
@@ -198,18 +198,12 @@
   text-align: center;
 }
 .aboutInfo h2{
-  color: var(--secondary-red);
-  font-size: 3.5rem;
+  color: var(--main-red);
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
-.aboutInfo h4{
-  color: var(--main-black);
-  font-size: 2.25rem;
-  font-weight: 300;
-  margin-bottom: 2rem;
-}
 .aboutInfo p{
-  font-size: 14px;
+  font-size: 12px;
   width: 95%;
   margin: auto;
   line-height: 2;
@@ -397,7 +391,7 @@
 .footer{
   min-height: 65svh;
   padding: 2rem;
-  background-color: var(--main-black);
+  background-color: var(--main-white);
 }
 .map{
   width: 100%;
@@ -406,7 +400,7 @@
 }
 .footerInfo{
   height: 400px;
-  background-color: var(--main-black);
+  background-color: var(--main-white);
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -415,7 +409,7 @@
 }
 .footerInfo h2{
   font-size: var(--title);
-  color: var(--main-white);
+  color: var(--main-black);
   text-align: center;
 }
 .red{
@@ -429,6 +423,7 @@
 }
 
 .authorLink{
+  font-family: var(--body-style);
   color: #F22952;
   margin-inline: 1rem;
   border-bottom: solid 1px var(--secondary-red);
@@ -469,7 +464,7 @@
       }
 
       .about{
-        height: 150svh;
+        height: 130svh;
         background-color: var(--main-white);
         position: relative;
       
@@ -484,7 +479,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 80%;
+        width: 0%;
         height: 100%;
         background: linear-gradient(to top right, #F22952 50%, transparent 50%);
         z-index: 1;
@@ -495,8 +490,8 @@
       .aboutInfo{
         width: 90%;
       }
-      .aboutInfo h4{
-        font-size: 1.5rem;
+      .aboutInfo h2{
+        font-size: 2.5rem;
       }
       .aboutInfo p{
         width: 95%;

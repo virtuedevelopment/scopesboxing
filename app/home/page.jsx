@@ -68,8 +68,7 @@ export default function Home() {
         />
 
         <div className="aboutInfo">
-          <h2>WHY WE TRAIN</h2>
-          <h4>Where It All Started</h4>
+          <h2>Health and Fitness in Every Punch</h2>
           <p>{configurations.aboutDescription}</p>
 
           <Link href={"#contact-information"} className="button-01">
@@ -127,7 +126,7 @@ export default function Home() {
 
           <span id="secondchild">
             <p>{configurations.address}</p>
-            <p>K1K 9J4 SUITE 55</p>
+            <p>K1Z 5Z6</p>
           </span>
         </div>
 
