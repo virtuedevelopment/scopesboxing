@@ -5,7 +5,7 @@ const configurations = {
     address: '862 MERIVALE ROAD OTTTAWA ON',
     email: 'scopesboxing@gmail.com',
     phone: '613-219-2440',
-    socials: { facebook: 'null', instagram: 'null', twitter: 'null',},
+    socials: { facebook: 'https://www.facebook.com/profile.php?id=100090041123871', instagram: 'https://www.instagram.com/scopesboxing/'},
     features: [
         {
             title: 'Our Commitment',

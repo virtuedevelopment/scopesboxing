@@ -59,6 +59,16 @@
   transition: ease-in-out;
 }
 
+.social{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+}
+
 
 /* landing page */
 .landing{

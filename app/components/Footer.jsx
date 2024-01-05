@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
+import configurations from '@/_data/config'
+
 export default function Footer() {
   return (
     <footer className='footer' >
@@ -13,6 +15,14 @@ export default function Footer() {
 
             <span className="social">
                 <h2>SCOPES <span className='red'>BOXING</span> CLUB</h2>
+                <span>
+                  <Link className='authorLink' href={configurations.socials.facebook} >
+                    <Image src={'/facebook.svg'} width={30} height={30} alt='facebook'/>
+                  </Link>
+                  <Link className='authorLink' href={configurations.socials.instagram} >
+                  <Image src={'/instagram.svg'} width={30} height={30} alt='facebook'/>
+                  </Link>
+                </span>
             </span>
 
             <span className='creators' >

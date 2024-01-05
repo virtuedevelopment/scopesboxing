@@ -114,9 +114,9 @@ export default function Home() {
       </section>
 
       <section id="contact-information" className="find">
+        <h4>TAKE YOUR HEALTH AND FITNESS TO THE NEXT LEVEL</h4>
         <Image src={"/logoRB.svg"} height={70} width={100} alt="logo" />
         <h2>COME AND VISIT US.</h2>
-        <h4>TAKE YOUR HEALTH AND FITNESS TO THE NEXT LEVEL</h4>
 
         <div className="infoBox">
           <span id="firstchild">
